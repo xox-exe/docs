@@ -76,7 +76,7 @@ steps:
 
 #### ブランチの使用
 
-特定のブランチを参照するということは、アクションが常にターゲットブランチの最新の更新を含み使用することを示しますが、それらの更新に重大な変更が含まれる場合、問題が発生する可能性があります。 この例では、`@main` という名前のブランチを対象としています。
+Referring to a specific branch means that the action will always use the latest updates on the target branch, but can create problems if those updates include breaking changes. この例では、`@main` という名前のブランチを対象としています。
 
 ```yaml
 steps:
@@ -87,7 +87,7 @@ steps:
 
 ### アクションで入力と出力を使用する
 
-多くの場合、アクションは入力を受け入れたり要求したりして、使用できる出力を生成します。 たとえば、アクションでは、ファイルへのパス、ラベルの名前、またはアクション処理の一部として使用するその他のデータを指定する必要がある場合があります。
+多くの場合、アクションは入力を受け入れたり要求したりして、使用できる出力を生成します。 For example, an action might require you to specify a path to a file, the name of a label, or other data it will use as part of the action processing.
 
 アクションの入力と出力を確認するには、リポジトリのルートディレクトリにある `action.yml` または `action.yaml` を確認してください。
 
@@ -149,7 +149,7 @@ outputs:
         私の最初のステップ: docker://alpine:3.8
 ```
 
-Dockerアクションの例については、[Docker-image.ymlのワークフロー](https://github.com/actions/starter-workflows/blob/main/ci/docker-image.yml)及び「[Dockerコンテナのアクションの作成](/articles/creating-a-docker-container-action)」を参照してください。
+Docker アクションの例については、[Docker-image.yml のワークフロー](https://github.com/actions/starter-workflows/blob/main/ci/docker-image.yml) および「[Docker コンテナのアクションを作成する](/articles/creating-a-docker-container-action)」を参照してください。
 
 ### 次のステップ
 

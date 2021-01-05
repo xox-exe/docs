@@ -1,11 +1,12 @@
 ---
 title: Managing secret scanning for your organization
 intro: 'You can control which repositories in your organization {% data variables.product.product_name %} will scan for secrets.'
+product: '{% data reusables.gated-features.secret-scanning %}'
 permissions: 'Organization owners can manage {% data variables.product.prodname_secret_scanning %} for repositories in the organization.'
 versions:
   free-pro-team: '*'
 ---
- 
+
 {% data reusables.secret-scanning.beta %}
 
 ### About management of {% data variables.product.prodname_secret_scanning %}
@@ -42,4 +43,4 @@ You can manage how {% data variables.product.prodname_dotcom %} scans for secret
 {% data reusables.organizations.org_settings %}
 {% data reusables.organizations.security-and-analysis %}
 5. To the right of "Secret scanning", enable or disable the feature by default for new private repositories in your organization.
-  ![Checkbox for enabling or disabling a feature for new repositoris](/assets/images/help/organizations/security-and-analysis-enable-or-disable-secret-scanning-checkbox.png)
+  ![Checkbox for enabling or disabling a feature for new repositories](/assets/images/help/organizations/security-and-analysis-enable-or-disable-secret-scanning-checkbox.png)

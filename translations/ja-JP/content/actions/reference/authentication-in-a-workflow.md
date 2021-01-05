@@ -1,5 +1,5 @@
 ---
-title: Authentication in a workflow
+title: ワークフローで認証する
 intro: '{% data variables.product.prodname_dotcom %}は、{% data variables.product.prodname_actions %}の代理で認証を受けるために利用できるトークンを提供します。'
 product: '{% data reusables.gated-features.actions %}'
 redirect_from:
@@ -13,8 +13,6 @@ versions:
 
 {% data variables.product.prodname_actions %} の支払いを管理する
 {% data variables.product.prodname_dotcom %}は、macOSランナーのホストに[MacStadium](https://www.macstadium.com/)を使用しています。
-
-リポジトリに対して`write`アクセスがあるユーザなら、誰でもシークレットの作成、読み取りおよび使用ができます。
 
 ### `GITHUB_TOKEN`シークレットについて
 
@@ -79,7 +77,7 @@ versions:
 
 ### `GITHUB_TOKEN`の権限
 
-{% data variables.product.prodname_github_apps %} が各権限でアクセできる API エンドポイントについては、「[{% data variables.product.prodname_github_app %} の権限](/v3/apps/permissions/)」を参照してください。
+{% data variables.product.prodname_github_apps %} が各権限でアクセできる API エンドポイントについては、「[{% data variables.product.prodname_github_app %} の権限](/rest/reference/permissions-required-for-github-apps)」を参照してください。
 
 | 権限          | アクセスタイプ   | フォークしたリポジトリからのアクセス |
 | ----------- | --------- | ------------------ |
